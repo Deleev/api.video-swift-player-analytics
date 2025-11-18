@@ -95,6 +95,7 @@ public class ApiVideoAnalyticsAVPlayer: AVPlayer {
     }
 
     private func addEvent(_ eventType: Event.EventType) {
+        /*
         let errorCode: ErrorCode
         if let error = error as? AVError {
             errorCode = error.analyticsErrorCode
@@ -112,6 +113,7 @@ public class ApiVideoAnalyticsAVPlayer: AVPlayer {
             errorCode: errorCode
         )
         agent.addEvent(event)
+        */
     }
 
     deinit {

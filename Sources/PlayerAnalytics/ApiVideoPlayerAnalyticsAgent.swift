@@ -52,6 +52,7 @@ class ApiVideoPlayerAnalyticsAgent {
     }
 
     private func reportBatch(_ batch: Batch) {
+        /*
         client.post(batch, completion: ({ response in
             do {
                 _ = try response.result()
@@ -59,6 +60,7 @@ class ApiVideoPlayerAnalyticsAgent {
                 print("Error: \(error) for payload: \(batch)")
             }
         }))
+        */
     }
 
     deinit {
