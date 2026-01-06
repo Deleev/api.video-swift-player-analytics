@@ -127,6 +127,7 @@ class ApiVideoPlayerAnalyticsAgent {
         }
 
         private func getBatch() -> Batch? {
+            /*
             let events = serialQueue.sync {
                 let events = self.events.array
                 self.events.removeAll()
@@ -144,6 +145,8 @@ class ApiVideoPlayerAnalyticsAgent {
                 version: ApiVideoPlayerAnalyticsAgent.version,
                 referrer: ""
             )
+            */
+            return nil
         }
 
         private func trySendBatch() {
